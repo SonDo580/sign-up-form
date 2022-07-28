@@ -15,6 +15,10 @@ main {
     background-repeat: no-repeat;
     background-position: top;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
 }
 
 .background .credit {
@@ -26,6 +30,9 @@ main {
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 120px;
+    width: 100%;
 }
 
 .background .logo img {
