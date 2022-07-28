@@ -14,3 +14,14 @@ main {
 .background .credit {
     text-align: center;
 }
+
+.background .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.background .logo img {
+    width: 100px;
+}
