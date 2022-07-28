@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Norse;
+    src: url(./fonts/webfontkit-20220728-113046/norse-bold-webfont.woff) format('woff'),
+        url(./fonts/webfontkit-20220728-113046/norse-bold-webfont.woff2) format('woff2');
+}
+
 main {
     display: flex;
 }
@@ -25,3 +31,5 @@ main {
 .background .logo img {
     width: 100px;
 }
+
+.background .logo span {}
