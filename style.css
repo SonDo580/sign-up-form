@@ -9,7 +9,7 @@ main {
 }
 
 .background {
-    width: 40%;
+    width: 35%;
     background-image: url(./images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,4 +35,18 @@ main {
 .background .logo span {
     font-family: Norse, sans-serif;
     font-size: 6rem;
+}
+
+.content {
+    width: 65%;
+}
+
+.content .description {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 80px 40px 20px;
+}
+
+.content .description p {
+    padding-right: 200px;
 }
