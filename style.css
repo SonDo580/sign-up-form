@@ -57,7 +57,7 @@ form {
 }
 
 form h1 {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 form .form-field {
@@ -71,6 +71,7 @@ form .form-field {
 form label {
     color: gray;
     font-weight: 600;
+    font-size: 14px;
 }
 
 form input {
@@ -84,4 +85,34 @@ form input:focus {
     outline: none;
     border: 1px solid blue;
     box-shadow: 0.5px 0.5px gray;
+}
+
+.foot {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 80px;
+}
+
+.foot button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 40px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+}
+
+.foot button:hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+.foot a {
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
 }
