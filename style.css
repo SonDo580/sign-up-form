@@ -1,0 +1,11 @@
+main {
+    display: flex;
+}
+
+.background {
+    width: 40%;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
