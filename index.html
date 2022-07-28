@@ -31,7 +31,7 @@
                 <p>You <em>know</em> you want to</p>
             </div>
 
-            <form action="">
+            <form action="" id="mainForm">
                 <h1>Let's do this!</h1>
                 <div class="form-field">
                     <label for="firstName">FIRST NAME</label>
@@ -57,14 +57,14 @@
                     <label for="passwordConfirm">CONFIRM PASSWORD</label>
                     <input type="password" id="passwordConfirm" name="passwordConfirm">
                 </div>
-
-                <div class="foot">
-                    <button type="submit">Create Account</button>
-                    <p>Already have an account? 
-                        <a href="#">Log in</a>
-                    </p>
-                </div>
             </form>
+
+            <div class="foot">
+                <button type="submit" form="mainForm">Create Account</button>
+                <p>Already have an account? 
+                    <a href="#">Log in</a>
+                </p>
+            </div>
         </div>
     </main>
 </body>
