@@ -8,4 +8,9 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
+    color: white;
+}
+
+.background .credit {
+    text-align: center;
 }
