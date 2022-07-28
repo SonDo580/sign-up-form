@@ -32,4 +32,7 @@ main {
     width: 100px;
 }
 
-.background .logo span {}
+.background .logo span {
+    font-family: Norse, sans-serif;
+    font-size: 6rem;
+}
